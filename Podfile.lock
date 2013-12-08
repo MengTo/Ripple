@@ -1,0 +1,10 @@
+PODS:
+  - Canvas (0.1)
+
+DEPENDENCIES:
+  - Canvas
+
+SPEC CHECKSUMS:
+  Canvas: 1d94806aab1ef0486df719f80f47eccf40a08ae5
+
+COCOAPODS: 0.26.2

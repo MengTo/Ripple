@@ -374,10 +374,10 @@
             </objects>
             <point key="canvasLocation" x="1335" y="1424"/>
         </scene>
-        <!--View Controller - Chat with Mikael-->
+        <!--Chat View Controller - Chat with Mikael-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController hidesBottomBarWhenPushed="YES" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="vXZ-lx-hvc" customClass="ChatViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UO1-vk-Wcs"/>
                         <viewControllerLayoutGuide type="bottom" id="bep-8l-A5k"/>
@@ -473,7 +473,7 @@
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wUZ-gp-aJy" customClass="CSAnimationView">
+                            <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wUZ-gp-aJy" customClass="CSAnimationView">
                                 <rect key="frame" x="96" y="44" width="245" height="544"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
@@ -560,9 +560,15 @@
                     <navigationItem key="navigationItem" title="Chat with Mikael" id="gRe-mp-cNe">
                         <barButtonItem key="rightBarButtonItem" image="icon-people" id="OJO-E1-b9u">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="listButtonDidPress:" destination="vXZ-lx-hvc" id="iKb-De-Jov"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <nil key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="listView" destination="wUZ-gp-aJy" id="gIS-Qp-yKr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>

@@ -15,17 +15,17 @@
 
 @implementation ProfileViewController
 
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self.view startCanvasAnimation];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
     [self setNeedsStatusBarAppearanceUpdate];
-}
-
-- (void)viewDidAppear:(BOOL)animated {
-    [super viewDidAppear:animated];
-    
-    [self.view startCanvasAnimation];
 }
 
 -(UIStatusBarStyle)preferredStatusBarStyle{

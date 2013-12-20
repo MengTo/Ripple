@@ -604,6 +604,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="CnM-7a-MuT">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.24705882352941178" green="0.56862745098039214" blue="0.81176470588235294" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="rIX-AM-IwP" kind="relationship" relationship="viewControllers" id="z3a-24-P2a"/>

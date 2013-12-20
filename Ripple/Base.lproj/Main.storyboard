@@ -140,10 +140,10 @@
             </objects>
             <point key="canvasLocation" x="1335" y="756"/>
         </scene>
-        <!--View Controller - Profile-->
+        <!--Profile View Controller - Profile-->
         <scene sceneID="tfX-7X-UVP">
             <objects>
-                <viewController id="zcD-cf-5IO" sceneMemberID="viewController">
+                <viewController id="zcD-cf-5IO" customClass="ProfileViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QM2-W3-g4Z"/>
                         <viewControllerLayoutGuide type="bottom" id="J9a-Tp-XhQ"/>

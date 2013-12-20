@@ -26,6 +26,7 @@
 		9664AA7518554FD000D2FF1F /* MuseoSans-100.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9664AA7218554FD000D2FF1F /* MuseoSans-100.otf */; };
 		9664AA7618554FD000D2FF1F /* MuseoSans-300.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9664AA7318554FD000D2FF1F /* MuseoSans-300.otf */; };
 		9664AA7718554FD000D2FF1F /* MuseoSans-500.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9664AA7418554FD000D2FF1F /* MuseoSans-500.otf */; };
+		96A49BE41863D0CF00453010 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A49BE31863D0CF00453010 /* ProfileViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		9664AA7218554FD000D2FF1F /* MuseoSans-100.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-100.otf"; sourceTree = "<group>"; };
 		9664AA7318554FD000D2FF1F /* MuseoSans-300.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-300.otf"; sourceTree = "<group>"; };
 		9664AA7418554FD000D2FF1F /* MuseoSans-500.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MuseoSans-500.otf"; sourceTree = "<group>"; };
+		96A49BE21863D0CF00453010 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		96A49BE31863D0CF00453010 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		E3D712C66E5F45638FA8C1D7 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,10 +133,7 @@
 				965C159D184826A400A770D5 /* AppDelegate.h */,
 				965C159E184826A400A770D5 /* AppDelegate.m */,
 				965C15A0184826A400A770D5 /* Main.storyboard */,
-				9664AA6E1855495800D2FF1F /* ChatViewController.h */,
-				9664AA6F1855495800D2FF1F /* ChatViewController.m */,
-				965C15A3184826A400A770D5 /* ViewController.h */,
-				965C15A4184826A400A770D5 /* ViewController.m */,
+				96A49BE51863D0D700453010 /* View Controllers */,
 				965C15A6184826A400A770D5 /* Images.xcassets */,
 				9664AA7118554FD000D2FF1F /* fonts */,
 				965C1595184826A400A770D5 /* Supporting Files */,
@@ -178,6 +178,19 @@
 				9664AA7418554FD000D2FF1F /* MuseoSans-500.otf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		96A49BE51863D0D700453010 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9664AA6E1855495800D2FF1F /* ChatViewController.h */,
+				9664AA6F1855495800D2FF1F /* ChatViewController.m */,
+				965C15A3184826A400A770D5 /* ViewController.h */,
+				965C15A4184826A400A770D5 /* ViewController.m */,
+				96A49BE21863D0CF00453010 /* ProfileViewController.h */,
+				96A49BE31863D0CF00453010 /* ProfileViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +332,7 @@
 				965C159F184826A400A770D5 /* AppDelegate.m in Sources */,
 				9664AA701855495800D2FF1F /* ChatViewController.m in Sources */,
 				965C159B184826A400A770D5 /* main.m in Sources */,
+				96A49BE41863D0CF00453010 /* ProfileViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,6 @@ Make sure you read the tutorials:
 [Simple Coding In Xcode](https://medium.com/learning-xcode-as-a-designer/204037ab2972)
 
 ## Usage
-This Xcode project uses [CocoaPods](http://cocoapods.com).
+This Xcode project uses [CocoaPods](http://cocoapods.org).
 
 <code>pod install</code>

@@ -171,7 +171,7 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="type" value="bounceLeft"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="type" value="zoomOut"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="delay">
                                                 <real key="value" value="0.10000000000000001"/>
                                             </userDefinedRuntimeAttribute>
@@ -197,7 +197,7 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="type" value="slideLeft"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="type" value="fadeIn"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="delay">
                                                 <real key="value" value="0.20000000000000001"/>
                                             </userDefinedRuntimeAttribute>
@@ -223,7 +223,7 @@
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <userDefinedRuntimeAttributes>
-                                            <userDefinedRuntimeAttribute type="string" keyPath="type" value="slideLeft"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="type" value="fadeIn"/>
                                             <userDefinedRuntimeAttribute type="number" keyPath="delay">
                                                 <integer key="value" value="0"/>
                                             </userDefinedRuntimeAttribute>

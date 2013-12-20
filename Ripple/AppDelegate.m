@@ -12,6 +12,21 @@
 
 - (BOOL)application:(UIApplication *)application willFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    // NavigationBar Custom Font
+    UIFont *navBarFont = [UIFont fontWithName:@"MuseoSans-300" size:18];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:(0.2471) green:(0.5686) blue:(0.8118) alpha:(1)]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{
+                                                           NSForegroundColorAttributeName: [UIColor colorWithRed:(1) green:(1) blue:(1) alpha:(1)],
+                                                           NSFontAttributeName:navBarFont
+                                                           }];
+    
+    [[UIBarButtonItem appearance] setTitleTextAttributes:@{
+                                                           NSForegroundColorAttributeName: [UIColor colorWithRed:(1) green:(1) blue:(1) alpha:(1)],
+                                                           NSFontAttributeName:navBarFont
+                                                           }
+                                                forState:UIControlStateNormal];
+    
     return YES;
 }
 							

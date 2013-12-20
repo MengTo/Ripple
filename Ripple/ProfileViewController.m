@@ -42,4 +42,8 @@
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString: link]];
 }
 
+- (IBAction)profileDidPress:(id)sender {
+    self.bioLabel.text = @"Tapped!";
+}
+
 @end

@@ -11,5 +11,7 @@
 @interface ProfileViewController : UIViewController
 - (IBAction)facebookDidPress:(id)sender;
 - (IBAction)twitterDidPress:(id)sender;
+- (IBAction)profileDidPress:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *bioLabel;
 
 @end

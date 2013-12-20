@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CSAnimationView.h"
+#import "UIView+SimpleMotionEffects.h"
 
 @interface ViewController ()
 
@@ -18,8 +19,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view.
+	
+    // Motion effects
+    [self.listView addMotionEffectWithMovement:CGPointMake(20, 20)];
     
+    // Change bar style to light
     [self setNeedsStatusBarAppearanceUpdate];
 }
 

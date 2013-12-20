@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-SimpleMotionEffects.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>83FD1853AB3A4CC58FF44E7D</key>
+		<key>6D6068FD888B40EC9C035B11</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>88F786C1568E4CDDA561908C</key>
+		<key>AAE4A6103C7049809BB9044C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E8049E424D3241DC925CF3AB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

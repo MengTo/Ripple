@@ -1,10 +1,13 @@
 PODS:
   - Canvas (0.1)
+  - SimpleMotionEffects (1.0.0)
 
 DEPENDENCIES:
   - Canvas
+  - SimpleMotionEffects
 
 SPEC CHECKSUMS:
   Canvas: 1d94806aab1ef0486df719f80f47eccf40a08ae5
+  SimpleMotionEffects: 6d38141f3761fc0185559382337067d5ad930650
 
-COCOAPODS: 0.26.2
+COCOAPODS: 0.28.0

@@ -7,6 +7,7 @@
 //
 
 #import "ProfileViewController.h"
+#import "CSAnimationView.h"
 
 @interface ProfileViewController ()
 
@@ -19,6 +20,12 @@
     [super viewDidLoad];
     
     [self setNeedsStatusBarAppearanceUpdate];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    [self.view startCanvasAnimation];
 }
 
 -(UIStatusBarStyle)preferredStatusBarStyle{

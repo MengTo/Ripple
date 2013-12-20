@@ -1,0 +1,1 @@
+I decided to put the Ripple Prototype project to GitHub so that you can follow every code commit. I will try to package them in the simplest and most self-explanatory way I can so that you can learn as the project evolves. It will be UI-focused.

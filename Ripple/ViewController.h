@@ -10,6 +10,6 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIView *listView;
-- (IBAction)buttonAnimate:(id)sender;
+- (IBAction)buttonDidPress:(id)sender;
 
 @end

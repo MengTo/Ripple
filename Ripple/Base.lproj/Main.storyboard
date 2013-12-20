@@ -128,7 +128,7 @@
                         <barButtonItem key="rightBarButtonItem" image="icon-add" id="WTn-4d-3fC">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                             <connections>
-                                <action selector="buttonAnimate:" destination="JgU-mf-g2g" id="hbl-PQ-7tG"/>
+                                <action selector="buttonDidPress:" destination="JgU-mf-g2g" id="21i-dE-Qo5"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

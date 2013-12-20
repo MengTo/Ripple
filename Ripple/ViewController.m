@@ -15,7 +15,7 @@
 
 @implementation ViewController
 
-- (IBAction)buttonAnimate:(id)sender {
+- (IBAction)buttonDidPress:(id)sender {
     [self.listView startCanvasAnimation];
 }
 

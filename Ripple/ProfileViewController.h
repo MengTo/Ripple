@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface ProfileViewController : UIViewController
+- (IBAction)facebookDidPress:(id)sender;
+- (IBAction)twitterDidPress:(id)sender;
 
 @end

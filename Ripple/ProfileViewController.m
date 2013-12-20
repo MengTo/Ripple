@@ -32,4 +32,14 @@
     return UIStatusBarStyleLightContent;
 }
 
+- (IBAction)facebookDidPress:(id)sender {
+    NSString *link = [NSString stringWithFormat:@"http://facebook.com/mengto"];
+            [[UIApplication sharedApplication] openURL:[NSURL URLWithString: link]];
+}
+
+- (IBAction)twitterDidPress:(id)sender {
+    NSString *link = [NSString stringWithFormat:@"http://twitter.com/mengto"];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString: link]];
+}
+
 @end

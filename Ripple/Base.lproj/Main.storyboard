@@ -271,6 +271,16 @@
                                                         <userDefinedRuntimeAttribute type="string" keyPath="fontName" value="MuseoSans-300"/>
                                                     </userDefinedRuntimeAttributes>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEH-9v-UDj">
+                                                    <rect key="frame" x="0.0" y="0.0" width="310" height="48"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="twitterDidPress:" destination="zcD-cf-5IO" eventType="touchUpInside" id="tzX-ZX-isK"/>
+                                                    </connections>
+                                                </button>
                                                 <imageView userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icon-twitter" translatesAutoresizingMaskIntoConstraints="NO" id="AAy-K0-CEv">
                                                     <rect key="frame" x="15" y="9" width="29" height="29"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -324,6 +334,16 @@
                                                     <rect key="frame" x="60" y="47" width="245" height="1"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PWa-Vu-Klo">
+                                                    <rect key="frame" x="0.0" y="0.0" width="310" height="48"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <state key="normal">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="facebookDidPress:" destination="zcD-cf-5IO" eventType="touchUpInside" id="Haj-7B-cfl"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         </view>
